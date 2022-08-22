@@ -1,0 +1,27 @@
+# Placeholders:
+# {command} = Shows current command.
+# {commands} = Shows command list.
+# {player} = Show player's uncolored in-game display name.
+messages:
+  usage:
+  - "&8&m------------------&8[ &6Block Commands &8]&8&m------------------&r"
+  - "&6/bclist add <command> &8» &eAdds a command to blocked commands list."
+  - "&6/bclist remove <command> &8» &eRemoves a command from blocked commands list."
+  - "&6/bclist see &8» &eSee blocked commands list."
+  - "&6/bclist reload &8» &eReloads the configuration."
+  - "&r "
+  - "&6Created by &e@Lawnless"
+  - "&e&n(https://www.spigotmc.org/members/lawnless.1130996/)"
+  - "&8&m----------------------------------------------------&r"
+  commandAdded: '&8(&6!&8) &aCommand &e{command} &aadded to blocked commands list.'
+  commandRemoved: '&8(&6!&8) &cCommand &e{command} &cremoved from blocked commands list.'
+  commandNotFound: '&8(&6!&8) &cCommand &e{command} &cdoes not found.'
+  configReloaded: '&8(&6!&8) &aConfiguration reloaded.'
+  usableCommands: '&8(&6!&8) &aCommands you can use: &e[{commands}]'
+  commandBlocked: '&8(&6!&8) &cYou cant use this command.'
+  noConsoleAllowed: 'This command can be executed by players only.'
+  noPermission: '&8(&6!&8) &cYou dont have permission for this!'
+allowed-commands:
+- is
+blocked-commands:
+- back

@@ -1,0 +1,21 @@
+name: BlockCommands
+version: 1.0
+main: me.lawnless.BlockCommands
+author: Lawnless
+description: You can block or allow commands if you want.
+commands:
+  bclist:
+    description: Manage blocked commands list.
+permissions:
+  bclist.bclist:
+    default: op
+  bclist.reload:
+    default: op
+  bclist.add:
+    default: op
+  bclist.remove:
+    default: op
+  bclist.see:
+    default: op
+  bclist.bypass:
+    default: op
